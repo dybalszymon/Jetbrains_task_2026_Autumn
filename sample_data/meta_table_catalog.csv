@@ -1,0 +1,7 @@
+table_fqn,layer,owner_team_id,description,is_iceberg
+analytics.raw.ide_events,raw,team_platform,Raw IDE telemetry events landing table,true
+analytics.stage.ide_events_clean,stage,team_platform,Cleaned IDE events with validated user ids,true
+analytics.mart.ide_usage_daily,mart,team_analytics,Daily IDE usage aggregates for product analytics,true
+analytics.mart.feature_adoption,mart,team_analytics,Feature adoption metrics by product build,true
+lake.raw.license_events,raw,team_licensing,Raw license activation events,true
+lake.mart.license_active_daily,mart,team_licensing,Daily active licensed seats,true

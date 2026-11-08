@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+meta_dwh.duckdb
+meta_dwh.duckdb.wal
+.idea/
